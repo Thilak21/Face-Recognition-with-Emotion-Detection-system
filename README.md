@@ -4,6 +4,7 @@
    The Face Recognition with Emotion Detection System is an advanced real-time computer vision project built using Python, OpenCV, and TensorFlow. It captures live webcam input, recognizes the person using LBPH (Local Binary Patterns Histogram), and detects their facial emotion using a trained CNN model (FER-2013). This system is designed to assist in smart surveillance, human-computer interaction, and emotional analysis applications. 
 
 
+
 # Key Features
 
 -> Real-time Face Detection: Detects faces from live video feed using Haar cascades.
@@ -17,6 +18,7 @@
 -> Custom Dataset Training: Easily train with your own image folders.
 
 -> Modular Design: Components can be replaced, improved, or extended (e.g., for liveness detection).       
+
 
 
 # Technologies Used
@@ -34,6 +36,7 @@
 -> NumPy: For array processing and pixel data manipulation
 
 
+
 # Project Highlights
 
 -> Dual-Purpose AI: Combines both identity and emotion recognition in real-time.
@@ -41,6 +44,7 @@
 -> Smooth Real-Time Performance: Works well with webcam feed at normal frame rate.
 
 -> Trainable & Scalable: Can train with your own images and retrain emotion model if needed.
+
 
 
 # How to Use
@@ -72,6 +76,7 @@
        python Face_Recognition_with_Emotion_Detection.py
    
 
+
 # Output Example
 
 Label format:
@@ -79,6 +84,7 @@ Label format:
    John | Happy 
    Unknown | Sad
         
+
 
 # Learning Outcomes
 
@@ -89,6 +95,7 @@ Label format:
 -> Worked with real-time video streams and handled image preprocessing.
 
 -> Gained experience with model loading, inference, and thresholding for predictions.
+
 
 
 # Conclusion
